@@ -36,6 +36,8 @@
 </p>
 
 ## 🔥 最新动态
+
+- 🖼️ **2026 年 10 月 31 日 — Demo 支持参考图：** 上传图片初始化世界，再通过文本提示词和相机控制继续探索。欢迎体验[在线演示](https://hy-nomas.hy.tencent.com/demo)，或查看[参考图部署说明](apps/README.md#start-with-a-reference-image)。
 - 🎬 **2026 年 10 月 29 日 — Hy-Nomas vs Genie 4：** 使用 Hy-Nomas 复现 Genie 4 示例，观看[视频对比](https://x.com/TencentHunyuan/status/2115851165904814283)。
 - 📄 **2026 年 10 月 27 日 — 技术报告已在 arXiv 发布：** [arXiv](https://arxiv.org/abs/2610.36729)。
 - 🤝 **2026 年 10 月 26 日 — 社区集成：** Hy-Nomas 已支持 [SGLang](https://github.com/sgl-project/sglang/pull/46124)、[ComfyUI](https://github.com/PedroMarinhoDev/ComfyUI-Hy-Nomas) 和 [Reactor Runtime](reactor/README.md)，详情请见[社区贡献](#-社区贡献)。
@@ -444,7 +446,7 @@ python -m scripts.train.merge_lora \
 如果 Hy-Nomas 对您的研究有所帮助，请引用我们的技术报告：
 
 ```bibtex
-@article{chen2026hynomas,
+@article{chen2026hy,
   title={Hy-Nomas: Towards Free-form Interactive World Generation},
   author={Chen, Qiaoling and Cheng, Jiaxiang and Deng, Xueqing and Hang, Tiankai and Hou, Ji and Li, Jiaqi and Liu, Yifan and Lu, Tao and Tang, Junshu and Tang, Yu and others},
   journal={arXiv preprint arXiv:2610.36729},
